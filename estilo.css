@@ -1,0 +1,128 @@
+/*Arquivo CSS PETVET */
+
+*{
+   margin: 0px;
+   padding: 0px;
+   }
+body{
+      background:#0A571E;
+      font-family: arial;
+	  margin-top: 5px;
+	}  
+/*Inicio do cabecalho --header */
+#header{
+       width: 800px;
+	   height: 140px;
+	   margin: 0px auto;
+	   background:#FF1493;
+	     }	
+#header h1{
+	       display: block; /*bloqueia linha*/
+		  float:left;
+		  	   }
+#nav{ 
+		  list-style:none; /*retira marcadores*/
+		  padding-left: 0px;
+		  display: block;
+		  float: left;
+		  margin-left: 130px;	
+		  margin-top:60px;	  
+	     }
+			
+#nav li {
+	      float:left;
+		  margin-left: 60px;
+		  }	
+
+#nav a {
+	      text-decoration: none;
+		  text-transform: uppercase;
+		  padding-top: 8px;
+		  color:#000000;
+		  font-weight: bold;
+		  }	
+#nav a:hover{
+		 	  border-bottom: 5px solid #FF0000;
+		  }
+
+/*fim do cabecalho--header */	
+#banner{
+		 margin-top:15px;
+		 width: 800px;
+		 height: 247px;
+		 margin: 0px auto;
+		 position: relative;
+	   }
+ #section{
+		   width:800px;
+		   height:150px;
+		   background:#F00000;
+		   margin:15px auto;
+		   }
+.article{
+		   width:250px;
+		   float:left;
+		   margin:5px 8px;
+		   }
+.article h1{
+		         font-size: 22px;
+			 font-weight: bold;
+			 text-transform:uppercase;
+			 text-align:center;
+		   } 
+.article p{
+		   padding-top:5px;
+		   font-size: 12px;
+		   text-align:justify;
+		   }
+		   
+ #footer{
+	   width: 800px;
+	   height: 50px;
+	   background:#9dc98F;
+	   float:right;
+	   margin:0 auto;
+	   padding-top:25px;
+	   margin-righ:00px;
+	   }
+#footer p{
+	   font-size: 12px;
+	   text-align: center;
+	  }			 
+ #conteudo{
+	   width:795px;
+	   height:425px;
+	   background:#FFC0CB;
+	   margin:15px auto; 
+	   padding-left:5px;
+	   }
+.artigo p{
+		  padding-top:15px; 
+		  font-size: 17px;
+		  text-align:justify;
+		  }		
+#conteudo1{
+	   width:795px;
+	   height:400px;
+	   background:#F0FFF0;
+	   margin:15px auto; 
+	   padding-left:5px;
+
+	   }  
+
+.artigo1{
+		   width:350px;
+		   margin:5px 8px;
+		   float:left;
+		   }
+
+.artigo1  h1{
+	        font-weight:bold;
+		    margin-bottom:5px;
+		  	   }
+.artigo1 ul{
+		   padding-top:15px;
+		   font-size: 17px;
+		   list-style:none;
+	       padding-left: 0px;
+		   }		
